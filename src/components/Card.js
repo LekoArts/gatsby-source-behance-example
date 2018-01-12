@@ -19,10 +19,10 @@ const Card = (props) => (
                 </div>
                 <div className={css.stats}>
                     <div className={css.views}>
-                        <FaThumbsUp /><span>{props.views}</span>
+                        <FaEye /><span>{props.views}</span>
                     </div>
                     <div className={css.appreciations}>
-                        <FaEye/><span>{props.appreciations}</span>
+                        <FaThumbsUp /><span>{props.appreciations}</span>
                     </div>
                     <div className={css.comments}>
                         <FaComment/><span>{props.comments}</span>

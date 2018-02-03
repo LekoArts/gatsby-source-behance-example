@@ -53,5 +53,3 @@ const Date = ({ date }) => {
         <span>{formatted}</span>
     )
 }
-
-// format(convertDate(project.published_on), DD.MM.YYYY)

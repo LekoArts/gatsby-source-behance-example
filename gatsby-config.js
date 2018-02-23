@@ -9,8 +9,7 @@ module.exports = {
       resolve: 'gatsby-source-behance',
       options: {
         username: 'lekoarts',
-        // apiKey: `${process.env.API_KEY}`
-        apiKey: 'RwSFfipufGkINc5Lq82zJxG9gsogUzRq',
+        apiKey: `${process.env.API_KEY}`,
       },
     },
     {

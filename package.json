@@ -1,48 +1,41 @@
 {
-  "name": "gatsby-source-behance-example",
-  "description": "Gatsby Source - Behance",
-  "version": "1.0.0",
-  "author": "LekoArts <hello@lekoarts.de>",
-  "dependencies": {
-    "date-fns": "^1.29.0",
-    "gatsby": "^1.9.151",
-    "gatsby-link": "^1.6.34",
-    "gatsby-plugin-react-helmet": "^2.0.5",
-    "gatsby-plugin-react-next": "^1.0.9",
-    "gatsby-plugin-typography": "^1.7.14",
-    "gatsby-source-behance": "^2.0.1",
-    "prop-types": "^15.6.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-helmet": "^5.2.0",
-    "react-icons": "^2.2.7",
-    "typography-theme-sutro": "^0.15.10"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "main": "n/a",
-  "scripts": {
-    "build": "gatsby build",
-    "dev": "gatsby develop -o"
-  },
-  "devDependencies": {
-    "babel-eslint": "^8.2.2",
-    "babel-preset-env": "^1.6.1",
-    "eslint": "^4.18.1",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.0.3",
-    "eslint-plugin-prettier": "^2.6.0",
-    "eslint-plugin-react": "^7.7.0",
-    "prettier": "^1.10.2",
-    "prettier-eslint": "^8.8.1"
-  },
-  "browserslist": [
-    "> 1%",
-    "IE >= 9",
-    "last 2 versions"
-  ]
+    "name": "gatsby-source-behance-example",
+    "description": "Gatsby Source - Behance",
+    "version": "1.0.0",
+    "author": "LekoArts <hello@lekoarts.de>",
+    "dependencies": {
+        "date-fns": "^1.29.0",
+        "gatsby": "^1.9.231",
+        "gatsby-link": "^1.6.39",
+        "gatsby-plugin-react-helmet": "^2.0.7",
+        "gatsby-plugin-react-next": "^1.0.11",
+        "gatsby-plugin-typography": "^1.7.18",
+        "gatsby-source-behance": "^2.0.2",
+        "prop-types": "^15.6.1",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "react-helmet": "^5.2.0",
+        "react-icons": "^2.2.7",
+        "typography-theme-sutro": "^0.15.10"
+    },
+    "keywords": ["gatsby"],
+    "license": "MIT",
+    "main": "n/a",
+    "scripts": {
+        "build": "gatsby build",
+        "dev": "gatsby develop -o"
+    },
+    "devDependencies": {
+        "babel-eslint": "^8.2.2",
+        "babel-preset-env": "^1.6.1",
+        "eslint": "^4.18.2",
+        "eslint-config-airbnb": "^16.1.0",
+        "eslint-config-prettier": "^2.9.0",
+        "eslint-plugin-import": "^2.9.0",
+        "eslint-plugin-jsx-a11y": "^6.0.3",
+        "eslint-plugin-prettier": "^2.6.0",
+        "eslint-plugin-react": "^7.7.0",
+        "prettier": "^1.11.1"
+    },
+    "browserslist": ["> 1%", "IE >= 9", "last 2 versions"]
 }

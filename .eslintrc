@@ -22,7 +22,7 @@
     "no-unused-vars": [
       1,
       {
-        "argsIgnorePattern": "res|next|^err"
+        "argsIgnorePattern": "res|next|stage|^err"
       }
     ],
     "arrow-body-style": [
@@ -36,9 +36,10 @@
       }
     ],
     "no-console": 0,
-    "react/prop-types": 0,
-    "import/no-extraneous-dependencies": 0,
     "linebreak-style": 0,
+    "no-use-before-define": 0,
+    "import/no-extraneous-dependencies": 0,
+    "react/no-danger": 0,
     "import/prefer-default-export": 0,
     "import": 0,
     "func-names": 0,
@@ -66,6 +67,13 @@
       {
         "avoidEscape": true,
         "allowTemplateLiterals": true
+      }
+    ],
+    "indent": [
+      "error",
+      2,
+      {
+        "SwitchCase": 1
       }
     ],
     "prettier/prettier": [

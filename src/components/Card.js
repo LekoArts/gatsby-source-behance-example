@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaThumbsUp, FaEye, FaComment } from 'react-icons/lib/fa';
+import { FaThumbsUp, FaEye, FaComment } from 'react-icons/fa';
 import format from 'date-fns/format';
 import parse from 'date-fns/parse';
 import css from './Card.module.css';

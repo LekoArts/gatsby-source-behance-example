@@ -7,6 +7,4 @@ Link to gatsby-source-behance: [gatsby-source-behance](https://github.com/LeKoAr
 
 ------
 
-Interested in Gatsby starters? Have a look here:
-
-[gatsby-starter-portfolio-emma](https://github.com/LeKoArts/gatsby-starter-portfolio-emma)
+Interested in Gatsby starters? Check out the [Gatsby Starter Portfolio Overview](https://gatsby-starter-portfolio.netlify.com/)!

@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaMapMarker, FaUser, FaThumbsUp, FaEye } from 'react-icons/lib/fa';
+import PropTypes from 'prop-types';
+import { FaMapMarker, FaUser, FaThumbsUp, FaEye } from 'react-icons/fa';
 import css from './Header.module.css';
 
 const Header = ({ user }) => (
@@ -41,3 +42,7 @@ const Header = ({ user }) => (
 );
 
 export default Header;
+
+Header.propTypes = {
+  user: PropTypes.any.isRequired,
+};

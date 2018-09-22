@@ -1,9 +1,12 @@
+require('dotenv').config({
+  path: `.env.${process.env.NODE_ENV}`,
+});
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Source - Behance`,
   },
   plugins: [
-    `gatsby-plugin-react-next`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: 'gatsby-source-behance',
@@ -18,5 +21,6 @@ module.exports = {
         pathToConfigModule: `src/utils/typography.js`,
       },
     },
+    `gatsby-plugin-netlify`,
   ],
 };

@@ -9,7 +9,7 @@
   margin: 0 auto;
   max-width: 1200px;
   padding: 3rem 1.0875rem 10rem 1.0875rem;
-  color: rgb(182, 182, 182);
+  color: rgb(182, 182, 182) !important;
   text-align: center;
 }
 
@@ -29,7 +29,7 @@
 
 .name {
   margin: 1rem 0 0.25rem 0;
-  color: white;
+  color: white !important;
 }
 
 .location {
@@ -72,10 +72,10 @@
 }
 
 .socialMedia ul li a {
-  color: rgb(182, 182, 182);
+  color: rgb(182, 182, 182) !important;
   margin: 0 0.25rem;
 }
 
 .socialMedia ul li a:hover {
-  color: cornflowerblue;
+  color: cornflowerblue !important;
 }
